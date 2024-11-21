@@ -34,7 +34,7 @@
       @enderror
 
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+        <label for="exampleFormControlTextarea1" class="form-label">your Content</label>
         <textarea name="content" class=" @error('content') is-invalid @enderror form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
 
